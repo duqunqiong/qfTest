@@ -1,5 +1,9 @@
+import java.util.Properties
+
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, SparkSession}
+
+import scala.tools.cmd.Property
 
 /**
   *
@@ -20,19 +24,17 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
   *
   */
 
-object Request02 {
+object Request02_01ProvinceAndCity {
   def main(args: Array[String]): Unit = {
     // 得到参数
     val log: (RDD[log], SparkSession) = new UserLog().creatUserLog
     val logUser: RDD[log] = log._1
     val sparkSession: SparkSession = log._2
 
-
     // 隐式转换
     import sparkSession.implicits._
 
-    val userLog: RDD[log] = logUser.coalesce(1)
-    val userLogDF: DataFrame = userLog.toDF()
+    val userLogDF: DataFrame = logUser.toDF()
     // userLogDF.show()
 
     userLogDF.createTempView("userLog")
@@ -57,6 +59,25 @@ object Request02 {
     sql1.show()
     //默认输出
     sql1.write.parquet("data\\uselog\\requst02")
+
+//    // 结果按json输出到 本地磁盘
+//    sql1.write.json("file:///D:\\BigData_qf\\Spark项目\\\\datalog\\request01\\sql1")
+//
+//    // 输出到数据库
+//    val url = "mysql://"
+//    val table = "userLog"
+//    val userName = "root"
+//    val password = "123456"
+//
+//    val properties = new Properties()
+//    properties.setProperty( "username","root")
+//    properties.setProperty("password","123456")
+//
+//    sql1.write.jdbc(url,table,properties)
+//
+//    // 用算子实现，并存储到磁盘
+
+
 
     sparkSession.stop()
 
