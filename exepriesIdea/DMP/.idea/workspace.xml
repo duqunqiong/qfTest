@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cd5f5a1-4642-4b03-b3bb-6cb495b11b61" name="Default Changelist" comment="结果化整理+需求二 的sql实现">
-      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_01Operator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_02Network.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_03Equipment.scala" afterDir="false" />
+    <list default="true" id="7cd5f5a1-4642-4b03-b3bb-6cb495b11b61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Request06_01Tags.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_APP.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Channel_CN.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Device.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_KeyWords.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LC.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LocationPlaces.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/log_Class/TypeUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request02_01ProvinceAndCity.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_01Operator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_02Network.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request04_mediaType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request05_comeChannel.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request01.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request02.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request02_01ProvinceAndCity.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_04Handle.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_wareHouse/TypeUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/DrawForUser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/DrawForUser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request01.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request02_01ProvinceAndCity.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_01Operator.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_02Network.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_03Equipment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_03Equipment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_04Handle.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_04Handle.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/UserLog.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/log_Class/UserLog.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserBehaviorTag/log.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserBehaviorTag/log_Class/log.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,68 +41,97 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5202703">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_04Handle.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="8" column="25" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_03Equipment.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="25" column="27" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_02Network.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="59">
-                  <caret line="25" column="27" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_APP.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#24#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LC.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#23#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Device.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+              <folding>
+                <element signature="e#23#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_KeyWords.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#23#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Request06_01Tags.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <element signature="e#24#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LocationPlaces.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <element signature="e#23#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Channel_CN.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Scala Trait" />
         <option value="Scala Object" />
       </list>
     </option>
@@ -105,10 +153,36 @@
         <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request01.scala" />
         <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03.scala" />
         <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_03Handle.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_01Operator.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_03Equipment.scala" />
         <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_04Handle.scala" />
         <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request02_01ProvinceAndCity.scala" />
-        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_01Operator.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_01Tags.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Tags.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Tags_Channel_CN.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Tags_APP.scala" />
         <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_02Network.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request04_mediaType.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request05_comeChannel.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request/Request06_01Tags.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request06_01Tags.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request01.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request02_01ProvinceAndCity.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_01Operator.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_03Equipment.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_04Handle.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Channel_CN.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request04_mediaType.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/log_Class/TypeUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_02Network.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request05_comeChannel.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_APP.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LC.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Device.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LocationPlaces.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_KeyWords.scala" />
+        <option value="$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Request06_01Tags.scala" />
       </list>
     </option>
   </component>
@@ -148,11 +222,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="815" />
-    <option name="y" value="221" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
     <option name="width" value="1080" />
-    <option name="height" value="840" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,18 +254,6 @@
             <path>
               <item name="DMP" type="b2602c69:ProjectViewProjectNode" />
               <item name="DMP" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="uselog" type="462c0819:PsiDirectoryNode" />
-              <item name="requst03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DMP" type="462c0819:PsiDirectoryNode" />
-              <item name="spark_wareHouse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DMP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,10 +269,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="UserBehaviorTag" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="UserBehaviorTag" type="462c0819:PsiDirectoryNode" />
+              <item name="Request06_Tags" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -221,6 +290,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -250,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Request03_01Operator">
+  <component name="RunManager" selected="Application.Request04_mediaType">
     <configuration name="DrawForUser" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DrawForUser" />
       <module name="DMP" />
@@ -259,14 +334,35 @@
       </method>
     </configuration>
     <configuration name="Request02" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Request02_01ProvinceAndCity" />
+      <option name="MAIN_CLASS_NAME" value="test_Request_01_05.Request02_01ProvinceAndCity" />
       <module name="DMP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Request03_01Operator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Request03_01Operator" />
+    <configuration name="Request03_02Network" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test_Request_01_05.Request03_02Network" />
+      <module name="DMP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Request03_04Handle" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test_Request_01_05.Request03_04Handle" />
+      <module name="DMP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Request04_mediaType" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test_Request_01_05.Request04_mediaType" />
+      <module name="DMP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Request05_comeChannel" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test_Request_01_05.Request05_comeChannel" />
       <module name="DMP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,8 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Request03_01Operator" />
+        <item itemvalue="Application.Request04_mediaType" />
+        <item itemvalue="Application.Request05_comeChannel" />
+        <item itemvalue="Application.Request03_02Network" />
         <item itemvalue="Application.Request02" />
+        <item itemvalue="Application.Request03_04Handle" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +389,8 @@
       <option name="presentableId" value="Default" />
       <updated>1592220106961</updated>
       <workItem from="1592220109645" duration="5074000" />
-      <workItem from="1592274346146" duration="23275000" />
+      <workItem from="1592274346146" duration="23332000" />
+      <workItem from="1592354644789" duration="22698000" />
     </task>
     <task id="LOCAL-00001" summary="项目资料内容">
       <created>1592299977010</created>
@@ -306,27 +406,33 @@
       <option name="project" value="LOCAL" />
       <updated>1592311910205</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="需求结构化整理">
+      <created>1592315969236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592315969236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28349000" />
+    <option name="totallyTimeSpent" value="51104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1" y="0" width="864" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27295285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.58498585" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0694051" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.37679082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.752149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,6 +444,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3982808" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,7 +499,12 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="项目资料内容" />
     <MESSAGE value="结果化整理+需求二 的sql实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="结果化整理+需求二 的sql实现" />
+    <MESSAGE value="需求结构化整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="需求结构化整理" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -402,20 +514,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/_01_da.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/objec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/_01_da.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/objec.scala" />
     <entry file="file://$PROJECT_DIR$/spark_wareHouse/TypeUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -423,42 +523,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log2Parquet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="110" column="14" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log2Parquet.scala" />
     <entry file="file://D:/BigData_qf/Spark项目/day02-用户画像项目（2）/代码/test/LocationRpt.scala">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/DrawForUser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="159" column="4" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_03Equipment.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/UserLog.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="122" selection-start-line="122" selection-end-line="123" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/textLog.log">
       <provider selected="true" editor-type-id="text-editor" />
@@ -473,27 +540,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_03Equipment.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="373">
+          <caret line="48" column="52" selection-start-line="13" selection-start-column="4" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/Tuple2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/BigData_qf/Spark项目/day03-用户画像项目（3）/代码/TagsContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113" />
+      </provider>
+    </entry>
+    <entry file="file://D:/BigData_qf/Spark项目/day03-用户画像项目（3）/代码/Tags.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request02_01ProvinceAndCity.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+        <state relative-caret-position="321">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_01Tags.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Tags.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/BigData_qf/Spark项目/day02-用户画像项目（2）/代码/util/TypeUtils.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_01Operator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="-266">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_02Network.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -502,17 +614,238 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_04Handle.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="478">
+          <caret line="48" column="52" selection-start-line="13" selection-start-column="4" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request03_02Network.scala">
+    <entry file="file://D:/BigData_qf/Spark项目/day03-用户画像项目（3）/代码/util/RptUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="-248" />
+      </provider>
+    </entry>
+    <entry file="file://D:/BigData_qf/Spark项目/day03-用户画像项目（3）/代码/test/parquet_Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request05_comeChannel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request04_mediaType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request06_01Tags.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request02_01ProvinceAndCity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1568">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_01Operator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_03Equipment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_04Handle.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="e#28#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log_Class/log.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/DrawForUser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="142" selection-start-line="142" selection-end-line="143" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log_Class/TypeUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/log_Class/UserLog.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1101">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request03_02Network.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request05_comeChannel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/test_Request_01_05/Request04_mediaType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Channel_CN.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LC.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#23#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_Device.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="e#23#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_LocationPlaces.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_KeyWords.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Tags_APP.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/UserBehaviorTag/Request06_Tags/Request06_01Tags.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
           </folding>
         </state>
       </provider>

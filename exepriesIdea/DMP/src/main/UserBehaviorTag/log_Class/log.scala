@@ -1,3 +1,5 @@
+package log_Class
+
 class log(     val sessionid: String,
                val advertisersid: Int,
                val adorderid: Int,

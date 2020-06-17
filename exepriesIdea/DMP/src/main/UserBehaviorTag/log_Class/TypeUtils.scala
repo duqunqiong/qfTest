@@ -1,3 +1,5 @@
+package log_Class
+
 /**
  * 类型转换工具类
  */

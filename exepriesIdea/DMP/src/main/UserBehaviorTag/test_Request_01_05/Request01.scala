@@ -1,5 +1,8 @@
+package test_Request_01_05
+
 import java.util.Properties
 
+import log_Class.{UserLog, log}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
@@ -35,7 +38,6 @@ object Request01 {
     val sparkSession: SparkSession = log._2
 
     import sparkSession.implicits._
-
     val DF: DataFrame = logUser.toDF()
 
     DF.createTempView("userLog")
